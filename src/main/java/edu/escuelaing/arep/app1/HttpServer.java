@@ -1,7 +1,8 @@
 package edu.escuelaing.arep.app1;
 
 import java.net.*;
-
+import java.nio.*;
+import java.nio.file.*;
 import java.io.*;
 import java.util.HashMap;
 import org.json.JSONArray;
@@ -85,7 +86,7 @@ public class HttpServer {
         }
         serverSocket.close();
     }
-
+    
     private static String data(String answer) {
         HashMap<String, String> hash = new HashMap<String, String>();
         JSONArray arr = new JSONArray(answer);

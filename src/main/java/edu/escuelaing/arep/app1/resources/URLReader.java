@@ -1,4 +1,4 @@
-package edu.escuelaing.arep.app1;
+package edu.escuelaing.arep.app1.resources;
 import java.io.*;
 import java.net.*;
 import java.util.*;
